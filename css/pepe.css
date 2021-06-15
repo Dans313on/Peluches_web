@@ -1,0 +1,169 @@
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html{
+	font-size: 16px;
+}
+
+body{
+	font-size: 0px;
+	overflow-x: hidden;
+}
+
+#menuP{
+	background-color: blue;
+	height: 50px;
+	text-align: center; 
+	position: fixed;
+	top: 0px;
+	width: 100%;
+	z-index:1;
+}
+
+      .opcion{
+	       font-size: 1rem;
+	       text-decoration: none;
+	       vertical-align: top;
+	       display: inline-block;
+	       padding: 0px 50px;
+	       line-height: 50px;
+	        color: #fff;
+}
+
+.opcion{
+	background-color: rgba(255,255,255,0.5);
+}
+
+#imagen{
+	margin-top: 5px;
+	width: 100px;
+}
+
+.contenido{
+	height: 700px;
+}
+
+.quienes{
+	background-color: #0cb925;
+}
+.imagen{
+	background: url(../Media/avion.jpg) no-repeat fixed;
+	background-size: cover;
+}
+
+#equipo{
+	background-color: yellow;
+
+}
+
+#video{
+	background: url(../Media/videoplayback.mp4) no-repeat;
+	background-size: cover;
+}
+footer{
+	background-color: black;
+	height: 200px;
+}
+
+#datos{
+	position: relative;
+	top:50px; 
+	padding-top: 30px
+}
+
+#formulario{
+	width: 500px;
+	margin: 0 auto;
+	text-align: center;
+	border: 1px solid green;
+	font-size: 1rem;
+	padding-top: 10px;
+}
+
+#formulario legend{
+	font-size: 1.2rem;
+
+}
+
+input, textarea, select{
+
+	height: 28px;
+	width: 85%;
+	border: 1px solid #fff;
+	background-color: rgba(107,192,220,9.0);
+	padding: 5px;
+	margin-top: 3px;
+	color: red;
+	font-size: 0.8rem;
+	padding-left: 35px;
+}
+
+input[type="file"]{
+	height: 35px;
+}
+   textarea{
+        height: 100px;
+   }
+
+   label{
+   	font-size: 1rem;
+    display: block;
+    color: green;
+    font-family: sans-serif;
+    text-align: center;
+    font-weight: bold;
+   }
+
+
+   input[type="radio"], input[type="checkbox"]{
+   	width: 20%;
+   	margin: 0px 0px 15px;
+   }
+
+   span{
+   	display: inline-block;
+   	vertical-align: top;
+   	padding-top: 5px;
+   	margin-left: 5px;
+   }
+
+    input[type="submit"], input[type="button"]{
+       background-color: red;
+       width: 100px;
+       color: #fff;
+       margin: 10px;
+       border-radius: 0px 10px;
+       padding-left: 0px;
+
+    }
+
+input:focus, textarea:focus, select:focus{
+	outline: none;
+	border:1px solid #600;
+	background-color: #e7e2a5;
+	color: red;
+
+}
+
+input[type="submit"]:hover, input[type="button"]:hover{
+	background-color: #fff;
+	color: red;
+	cursor: pointer;
+	border: 1px solid #600;
+        
+	}
+
+	input[type="email"]{
+		background-image: url(../Media/mail_icon.png);
+		background-repeat: no-repeat;
+		background-position: 5px; 
+
+	}
+
+	input[type="file"]{
+		height: 35px;
+	}

@@ -1,0 +1,73 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	font-size: 0px;
+}
+
+.coloruno{
+	background-color: #00ffff;
+
+}
+.colordos{
+	background-color: #ffef09;
+
+}
+.colortres{
+	background-color: red;
+}
+.colorcuatro{
+	background-color: blue;
+}
+.flotante{
+	width: 30%;
+	height: 300px;
+	margin: 10px;
+	float: left;
+}
+
+h2{
+	font-size: 20px;
+}
+.reinicio{
+	clear: both;
+}
+
+.disp{
+	width: 30%;
+	height: 300px;
+	margin: 10px;
+	display: inline-block;
+	vertical-align: top;
+}
+.tamanio{
+	height: 200px;
+}
+
+.posit{
+	width: 20%;
+	height: 200px;
+	margin: 10px;
+}
+
+
+#hijo{
+	width: 30%;
+	height:50px;
+	background-color: #8a2be2;
+}
+
+#relativo{
+	position: relative;
+	top: 100px;
+	left: 25%;
+	bottom: 25px;
+	right: 50%;
+}
+#absoluto{
+	position: absolute;
+	top: 200px;
+	right: 250px;
+}
